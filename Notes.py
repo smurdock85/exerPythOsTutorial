@@ -1,4 +1,36 @@
+## To-DO
+# * Execute code examples in separate cells.
+  # * import os
+  # * print(dir(os))
+  #* print(os.getcwd())
+  # os.chdir()
+  # os.listdir()
+  # os.mkdir() - make a new directory folder in the repository
+  # os.makedirs() - make a new directory with a subdirectory in the repository
+  # os.rmdir() - remove the new directory
+  # os.removedirs() - remove the new directory with subdirectory
+  # os.rename()
+  # print(os.stat())
+  # from datetime import datetime
+  # print(datetime.fromtimestamp())
+  # os.walk()
+  # print(os.environ.get('HOME'))
+  # os.path.join()
+  # os.path.basename()
+  # os.path.dirname()
+  # os.path.split()
+  # os.path.exists()
+  # os.path.isdir()
+  # os.path.isfile()
+  # os.path.splitext()
+  # add a comment in a cell with a url for official Python documentation (not shown in the video - Google it)
+  # add a comment in a cell with a url for a tutorial on the OS module in the official documentation (not shown in the video - look through the documentation to find it)
+
 import os
+
+print(dir(os)) 
+
+print(os.getcwd())
 
 # Get current working directory
 os.getcwd()
@@ -57,3 +89,9 @@ os.path.isfile(‘/tmp/test.txt’)
 
 os.path.splitext(‘/tmp/test.txt’)
 # Splits file route of the path and the extension
+
+# source doc 
+# https://docs.python.org/3/ 
+
+# Tutorial on OS
+# https://docs.python.org/3/tutorial/stdlib.html 
